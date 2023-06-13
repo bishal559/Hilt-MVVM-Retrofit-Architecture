@@ -1,0 +1,25 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '8.0.1' apply false
+    id 'com.android.library' version '8.0.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.8.20' apply false
+    id 'com.google.dagger.hilt.android' version "2.45" apply false
+}
+
+
+ext {
+    minSdkVersion = 24
+    targetSdkVersion = 33
+    compileSdkVersion = 33
+    versionCode = 1
+    versionName = "1.0"
+    ktxVersion = '1.10.1'
+    appCompatVersion = '1.6.1'
+    materialVersion = '1.9.0'
+    constraintLayoutVersion = '2.1.4'
+    junitVersion = '4.13.2'
+    testExtJunitVersion = '1.1.5'
+    espressoVersion = '3.5.1'
+    viewModelVersion = '2.6.0'
+    fragmentVersion = '1.5.5'
+}
